@@ -2314,15 +2314,18 @@ details-disclosure > details {
 
 .overlay {
     position:absolute;
-    top:75%;
-    left:0;
+    top:85%;
+    right: 35%;
     z-index:1;
-  	font-size: 20px;
-  	font-family: Clarkson;
+  	font-size: 24px;
+  	font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
   	font-style: italic;
-    color: white; 
+    color: yellow; 
   	width:100%;
     text-align:center;
   	vertical-align: middle;
+}
+.custom-video {
+  color: yellow;
 }
