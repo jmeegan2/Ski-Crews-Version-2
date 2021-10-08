@@ -3,7 +3,7 @@
     "1633567148cb916521": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"container\">\n\n<video autoplay loop muted playsinline width=\"100%\">\n<source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0601\/8170\/9029\/files\/video.mp4?v=1633566049\" type=\"video\/mp4\"> <\/video>\n\n    <div class=\"overlay\">\n      <p><button <a href=\"pornhub.com\"><\/a>\n        Click Here\n    <\/button><\/p>\n    <\/div>\n<\/div>"
+        "custom_liquid": "<div class=\"container\">\n\n<video autoplay loop muted playsinline width=\"100%\">\n<source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0601\/8170\/9029\/files\/video.mp4?v=1633566049\" type=\"video\/mp4\"> <\/video>\n<\/div>\n    <div class=\"overlay\">\n      <p><button>\n        Click Here\n    <\/button><\/p>\n    <\/div>\n<\/div>"
       }
     },
     "image_banner": {
@@ -93,46 +93,6 @@
         "show_rating": false
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
     "video": {
       "type": "video",
       "settings": {
@@ -182,6 +142,46 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1633716212d0a0a1c5": {
+      "type": "collage",
+      "blocks": {
+        "1633716212d0a0a1c5-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "1633716212d0a0a1c5-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1633716212d0a0a1c5-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1633716212d0a0a1c5-0",
+        "1633716212d0a0a1c5-1",
+        "1633716212d0a0a1c5-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -189,8 +189,8 @@
     "image_banner",
     "rich_text",
     "featured_products",
-    "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1633716212d0a0a1c5"
   ]
 }
